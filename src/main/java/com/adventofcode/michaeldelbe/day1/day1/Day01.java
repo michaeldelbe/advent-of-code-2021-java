@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import static java.lang.Integer.parseInt;
+import static java.lang.String.format;
 
 public class Day01 {
 
@@ -22,6 +23,7 @@ public class Day01 {
         }
       }
     }
+    System.out.println(format("Increments: %s", increments));
     return increments;
   }
 
@@ -42,6 +44,7 @@ public class Day01 {
         }
       }
     }
+    System.out.println(format("Increments: %s", increments));
     return increments;
   }
 
